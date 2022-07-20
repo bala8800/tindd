@@ -1,0 +1,218 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+
+h1,h2 {
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+
+
+h3 {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+p {
+
+  color: #8f8f8f;
+  font-weight: 600;
+}
+
+
+/* refactoring */
+.big-title {
+  font-size: 3.5rem;
+  font-weight: 900;
+}
+
+.section-title {
+  font-size: 3rem;
+}
+
+
+
+
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+
+}
+
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+/* Nav Bar */
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Download button */
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title image */
+.title-image {
+  width:60% ;
+  transform: rotate(25deg);
+  position: absolute;
+left: 7%;
+}
+
+.title-image-box{
+  position: relative;
+
+
+}
+
+
+/* features */
+ #features {
+  padding:3% 15%;
+  background-color: white;
+  position: relative;
+
+}
+
+.features-box {
+  text-align: center;
+  padding: 4.5%;
+  background-color: white;
+}
+
+.icon {
+  font-size: 3.5em;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+
+}
+
+/* Testimonials */
+
+
+#testimonials{
+  background-color: #ef8172;
+  color: white;
+
+  text-align: center;
+
+}
+
+.testimonials-image {
+  width: 10%;
+  border-radius: 200%;
+  margin: 25px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 30px 30px 30px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 2% 3%;
+}
+
+.pricing-btn {
+  font-weight: bolder;
+}
+
+.pricing-btn-layout {
+  margin-top: 28px;
+}
+
+.pricing-layout {
+  margin-bottom: 20px;
+}
+
+
+#cta {
+  background-color:#ff4c68;
+  text-align: center;
+  color: #fff;
+}
+
+.cta-container {
+  padding: 3% 10%;
+}
+
+.cta-h2 {
+  font-weight: 800;
+}
+
+/* footer */
+.footer-icon {
+  color: #000;
+
+  text-decoration: none;
+  margin:0 10px 20px 10px;
+}
+
+.footer-icon:hover {
+  color: grey;
+  font-size: 1.1rem;
+}
+
+.footer-box {
+  text-align: center;
+  padding: 5% 15%;
+}
+
+/* Media */
+@media (max-width:1028px) {
+#title {
+  text-align: center;
+}
+
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+
+.title-image-box {
+  text-align: center;
+}
+
+}
